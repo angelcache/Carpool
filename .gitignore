@@ -1,0 +1,13 @@
+# Ignore WordPress core files and sensitive data
+/wp-admin/
+/wp-includes/
+wp-config.php
+.htaccess
+
+# Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/cache/
+
+# Ignore other environment-specific files
+*.log
+*.sql
